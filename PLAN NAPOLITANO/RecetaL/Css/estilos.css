@@ -1,0 +1,95 @@
+/** 
+
+# (Asterisco)
+
+En CSS, el asterisco (*) se conoce como el selector universal.
+
+Significa que las reglas aplicadas dentro de las llaves { } afectarán todos los elementos HTML de la página.
+
+Es una forma de aplicar estilos globales **/
+
+/** 
+
+# margin: 0;
+
+margin es la propiedad que controla el espacio exterior alrededor de un elemento.
+
+Al establecerlo en 0, eliminamos cualquier margen predeterminado que los navegadores puedan aplicar (como en <body>, <h1>, <p>, etc.).
+
+# padding: 0;
+
+padding es la propiedad que controla el espacio interior de un elemento (entre su contenido y su borde). 
+
+### Alternativas modernas al *
+Aunque el * es útil, puede afectar el rendimiento en páginas grandes. 
+
+Alternativas comunes son:
+- Normalize.css: Una hoja de estilos que "normaliza" los estilos predeterminados sin eliminarlos por completo.
+- Reset CSS moderno:
+
+body, h1, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+(Se listan solo los elementos necesarios en lugar de usar *).**/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #ff0079;
+}
+
+main{
+    background-color: #e1ffcc;
+}
+
+footer{
+    background-color: #ffd143;
+}
+
+/**
+
+# Paylimon → Selector de ID (identificador único en HTML).
+
+# width: 60%; → Propiedad y valor (ancho del elemento al 60% de su contenedor padre).
+
+Explicación:
+# (numeral) → En CSS, el símbolo # se usa para seleccionar un elemento por su ID.
+
+Paylimon → Es el nombre del ID (debe coincidir con el atributo id="Paylimon" en el HTML).
+
+width: 60%; → Establece el ancho del elemento al 60% del ancho de su contenedor padre.**/ 
+
+/**
+
+Los IDs se aplica a un único elemento HTML (porque los IDs deben ser únicos en una página).
+
+**/
+
+/**
+
+.redes → Selector de clase.
+
+width: 10%; → Propiedad y valor (ancho del elemento al 10% de su contenedor padre).
+
+Explicación:
+. (punto) → En CSS, el símbolo . se usa para seleccionar elementos por su clase.
+
+redes → Es el nombre de la clase (debe coincidir con el atributo class="redes" en el HTML).
+
+width: 10%; → Establece el ancho del elemento al 10% del ancho de su contenedor padre.
+
+## Se puede aplicar a múltiples elementos (a diferencia del ID, que es único).
+
+**/
+
+#Paylimon {
+    width: 60%;
+}
+
+.redes {
+    width: 10%;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAY DE LIMÓN</title>
+<!-- # la etiqueta "link" sirve para ligar todo los estilos que se hacen en el archivo
+CSS, siempre van en el "head". Es una etiqueta autocontenida (no tiene cierre) que se usa para enlazar recursos externos al documento HTML.
+Siempre va dentro de la sección <head> del HTML.  -->
+
+<!-- # rel="stylesheet" El atributo rel (relationship) define la relación 
+entre el documento HTML y el recurso enlazado. -->
+
+<!-- # "stylesheet" indica que el recurso es una hoja de estilos CSS 
+que debe aplicarse al documento. -->
+
+<!-- # href="Css/estilos.css"
+
+href (Hypertext Reference) especifica la ruta al archivo externo.
+
+"Css/estilos.css" es la ubicación del archivo CSS:
+
+Css/ → Carpeta llamada "Css" (puede ser también css/ en minúsculas, 
+dependiendo del sistema de archivos).
+
+estilos.css → Nombre del archivo CSS. -->
+
+    <link rel="stylesheet" href="Css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Pay de limóm
+        </h1>
+        <nav>
+
+        </nav>
+        <button>
+            Ingresar
+        </button>
+        <button>
+            Registrar
+        </button>
+        <img src="img/chef.png" alt="cocinero">
+        <ul>
+            <li>
+                <STrong>
+                    <em>
+                        INGREDIENTES:
+                    </em>
+                </STrong>
+            </li>
+            <li>
+                <STRong>
+                    <em>
+                        MODO DE PREPARACIÓN:
+                    </em>
+                </STRong>
+            </li>
+        </ul>
+
+    </header>
+    <main>
+        
+        <!-- # el "id" se utiliza solo una vez para modificar un solo elemento -->
+        
+        <!-- # "img" Es una etiqueta autocontenida (no necesita cierre) que se utiliza para insertar imágenes en una página web.
+        Requiere al menos dos atributos: src (fuente de la imagen) y alt (texto alternativo). -->
+
+        <!-- # id="Paylimon"
+        El atributo id asigna un identificador único a la imagen.
+        Se usa para: Referenciar el elemento en CSS (ej: #Paylimon { ... }).
+        Manipularlo con JavaScript (ej: document.getElementById("Paylimon")). -->
+        
+        <!-- # src="img/Paylimon.jpg"
+        src (source) define la ruta de la imagen.
+        "img/Paylimon.jpg" indica que: La imagen está en una carpeta llamada img/.
+        El nombre del archivo es Paylimon.jpg.
+        Nota: Si la ruta es incorrecta, la imagen no se mostrará. -->
+
+        <!-- # alt="portada"
+        alt (alternative text) proporciona un texto descriptivo que aparece: 
+        *Si la imagen no carga.
+        *Para accesibilidad (lectores de pantalla para personas con discapacidad visual).
+        *En motores de búsqueda (SEO). -->
+
+        <!-- # Recomendación: Usa descripciones claras (ej: alt="Logo de Paylimon"). -->
+        <img
+         
+        id="Paylimon"
+        src="img/Paylimon.jpg" alt="portada">
+        <h2>
+            Pay de limón
+        </h2>
+        <h2>
+            INGREDIENTES:
+        </h2>
+        <ul>
+        <li>
+            1 lata de leche condensada (395g).
+        </li>
+        <li>
+            1 lata de leche evaporada (360g).
+        </li>
+        <li>
+            Jugo de limón (200 ml) Aprox. 10 limones.
+        </li>
+        <li>
+            Dos paquetes de galletas Marías.
+        </li>
+        </ul>
+        <h2>
+            MODO DE PREPARACIÓN
+        </h2>
+        <!-- # el "ol" es una etiqueta para hacer listas ordenadas mientras "li" es para hacer listas desordenadas. -->
+        <ol>
+            <li>
+                Lo primero que tienes que hacer es colar el jugo de limón para que quede completamente libre de semillas. 
+            </li>
+            <li>
+                Tendrás que licuar el limón con la leche condensada y evaporada, 
+                hasta obtener una pasta que será una de las bases con las que vas a crear el postre.
+            </li>
+            <li>
+                En el refractario pondrás una capa de galletas enteras, seguida de una capa de la pasta, 
+                procurando no dejar huecos entre ambas y repitiendo el proceso hasta llenarlo. 
+            </li>
+            <li>
+                La última capa, que debe ser con la pasta, la puedes decorar con ralladura de limón o trozos de galleta enteros 
+                y un toque de canela. 
+            </li>
+            <li>
+                Finalmente tapas el refractario con papel aluminio y lo dejas enfriar durante 
+                3 horas en el refrí para que esté listo para disfrutar.
+            </li>
+        </ol>
+        <!-- # la etiqueta "p" sirve para hacer parrafos  -->
+        <p>
+            <strong>
+                <h1>
+                    Es hora de otro básico en nuestra sección de repostería: <br>¡El pay de limón hecho con galletas marias!
+                </h1>
+            </strong>
+            <h5><br>Y es que: ¿a quién no le gusta este postre frío? Además de que es muy sencillo y rápido de hacer,
+                    el delicioso sabor del pay de limón ha acompañado a lo largo de generaciones a las familias mexicanas.
+                    <br>Ya sea para ver una película, celebrar un cumpleaños o para llenar ese huequito después de la comida,
+                    en esta ocasión te compartimos la receta para 10 porciones.
+            </h5>
+        </p>
+        <!-- # la etiqueta "a" sirve para hacer un ancla, te direcciona a una ventana nueva, sin necesidad e cerrar 
+        la ventana principal. -->
+        <a 
+        href="https://cristaleriamonaco.com/como-preparar-un-pay-de-limon/" target="_blank">
+        Conoce más
+        </a>
+        
+    </main>
+    <!-- # el class o clase es más específica para modificar varios elementos y que tengan la misma clasificación. -->
+    <footer>
+        <a href="https://es-la.facebook.com/" target="_blank">
+            <img class="redes" 
+            src="img/facebook.png" alt="icono de facebook"/>
+       </a>
+       <a 
+       href="https://www.instagram.com/" target="_blank">
+            <img class="redes"
+            src="img/instagram.png" alt="icono instagram"/>
+       </a>
+       <a href="https://x.com/" target="icono twitter">
+            <img class="redes"
+            src="img/twitter.png" alt="icono twitter"/>
+       </a>
+       <h5>Elaborado por Luis Herrera</h5>
+       <h5>Escuela de Código</h5>
+    </footer>
+</body>
+</html>
