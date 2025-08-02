@@ -29,12 +29,12 @@ estilos.css → Nombre del archivo CSS. -->
 </head>
 <body>
     <header>
-        <h1>
-            Pay de limóm
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+        <h1 id="titulo"> Pay de limón
         </h1>
         <nav>
-
-        </nav>
         <button>
             Ingresar
         </button>
@@ -42,7 +42,7 @@ estilos.css → Nombre del archivo CSS. -->
             Registrar
         </button>
         <img src="img/chef.png" alt="cocinero">
-        <ul>
+        <ul id="menu">
             <li>
                 <STrong>
                     <em>
@@ -58,6 +58,7 @@ estilos.css → Nombre del archivo CSS. -->
                 </STRong>
             </li>
         </ul>
+    </nav>
 
     </header>
     <main>
@@ -89,13 +90,13 @@ estilos.css → Nombre del archivo CSS. -->
          
         id="Paylimon"
         src="img/Paylimon.jpg" alt="portada">
-        <h2>
+        <h2 class="subtitulo">
             Pay de limón
         </h2>
-        <h2>
+        <h2 class="subtitulo">
             INGREDIENTES:
         </h2>
-        <ul>
+        <ul class="listas">
         <li>
             1 lata de leche condensada (395g).
         </li>
@@ -109,11 +110,11 @@ estilos.css → Nombre del archivo CSS. -->
             Dos paquetes de galletas Marías.
         </li>
         </ul>
-        <h2>
+        <h2 class="subtitulo">
             MODO DE PREPARACIÓN
         </h2>
-        <!-- # el "ol" es una etiqueta para hacer listas ordenadas mientras "li" es para hacer listas desordenadas. -->
-        <ol>
+        <!-- # el "ol" es una etiqueta para hacer listas ordenadas mientras "li" es un elemento de la lista. -->
+        <ol class="listas">
             <li>
                 Lo primero que tienes que hacer es colar el jugo de limón para que quede completamente libre de semillas. 
             </li>
@@ -138,7 +139,7 @@ estilos.css → Nombre del archivo CSS. -->
         <p>
             <strong>
                 <h1>
-                    Es hora de otro básico en nuestra sección de repostería: <br>¡El pay de limón hecho con galletas marias!
+                    Es hora de otro básico en nuestra sección de repostería: <br>¡El pay de limón hecho con galletas maría!
                 </h1>
             </strong>
             <h5><br>Y es que: ¿a quién no le gusta este postre frío? Además de que es muy sencillo y rápido de hacer,
@@ -149,8 +150,7 @@ estilos.css → Nombre del archivo CSS. -->
         </p>
         <!-- # la etiqueta "a" sirve para hacer un ancla, te direcciona a una ventana nueva, sin necesidad e cerrar 
         la ventana principal. -->
-        <a 
-        href="https://cristaleriamonaco.com/como-preparar-un-pay-de-limon/" target="_blank">
+        <a href="https://cristaleriamonaco.com/como-preparar-un-pay-de-limon/" target="_blank">
         Conoce más
         </a>
         
@@ -161,12 +161,11 @@ estilos.css → Nombre del archivo CSS. -->
             <img class="redes" 
             src="img/facebook.png" alt="icono de facebook"/>
        </a>
-       <a 
-       href="https://www.instagram.com/" target="_blank">
+       <a href="https://www.instagram.com/" target="_blank">
             <img class="redes"
             src="img/instagram.png" alt="icono instagram"/>
        </a>
-       <a href="https://x.com/" target="icono twitter">
+       <a href="https://x.com/" target="_blank">
             <img class="redes"
             src="img/twitter.png" alt="icono twitter"/>
        </a>

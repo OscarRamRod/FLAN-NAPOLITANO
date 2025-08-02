@@ -40,6 +40,7 @@ body, h1, p, ul, ol {
 
 header{
     background-color: #ff0079;
+    height: 200px;
 }
 
 main{
@@ -88,8 +89,79 @@ width: 10%; → Establece el ancho del elemento al 10% del ancho de su contenedo
 
 #Paylimon {
     width: 60%;
+    border: 10px rgb(255, 251, 55) groove;
 }
 
 .redes {
     width: 10%;
 }
+
+#titulo {
+    font-family: cursive;
+    font-size: 90px;
+    font-weight: 600;
+    color: blanchedalmond;
+    position: absolute;
+    left: 500px;
+    top: 50px;
+}
+
+#menu {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: blue;
+}
+
+.subtitulo {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border: 15px rgb(0, 255, 13) outset;
+    padding: 20px;
+    width: 25%;
+    border-radius: 15px;
+    position: relative;
+    left: 500px;
+    top: 50px;
+     }
+
+.listas {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 15px rgb(0, 4, 255) double;
+    padding: 20px;
+    width: 25%;
+    border-radius: 15px;
+}
+/**
+especificidad: el nombre de las etiquetas es muy general: header, img, h2, p y button
+argumento class que es más específico afecta a varias etiquetas seleccionadas.
+En html es el class y en css es un . (punto)
+Argumento id que es muy específico solo afecta a un elemento seleccionado.
+En html es el (id) y en css (#)-->
+
+Unidades de medida en css:
+pixelex px,
+porcentaje %,
+punto pt,
+centimetros cm,
+pulgadas in,
+width viewport wv,
+height viewport wh,
+rem,
+em,
+querto de pulgada Q,
+
+Tipos de border:
+solid
+dotted
+dashed
+double
+groove
+ridge
+inset
+outset
+
+/**
